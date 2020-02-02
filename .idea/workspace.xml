@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="67787f20-3988-4f88-abd2-6f3ba2076196" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +160,7 @@
       <workItem from="1569679240626" duration="4939000" />
       <workItem from="1569727908457" duration="1941000" />
       <workItem from="1570006720807" duration="40000" />
-      <workItem from="1580612433184" duration="1445000" />
+      <workItem from="1580612433184" duration="1970000" />
     </task>
     <servers />
   </component>
