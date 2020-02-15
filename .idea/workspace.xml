@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="67787f20-3988-4f88-abd2-6f3ba2076196" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/DatabaseSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/static_pages/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UsersController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/shared/_stats.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/shared/_stats.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -122,7 +122,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../synermax-php" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -173,7 +173,10 @@
       <workItem from="1581470466037" duration="605000" />
       <workItem from="1581473201583" duration="14555000" />
       <workItem from="1581555767830" duration="11000" />
-      <workItem from="1581688330090" duration="4667000" />
+      <workItem from="1581688330090" duration="4856000" />
+      <workItem from="1581735391329" duration="309000" />
+      <workItem from="1581737716894" duration="1054000" />
+      <workItem from="1581757868136" duration="1886000" />
     </task>
     <servers />
   </component>
