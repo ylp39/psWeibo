@@ -13,6 +13,11 @@ class StatusesController extends Controller
         $this->middleware('auth');
     }
 
+    public function show(Status $status)
+    {
+        return view('statuses.show', compact('status'));
+    }
+
     public function store(Request $request)
     {
         $this->validate($request,[
