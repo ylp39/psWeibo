@@ -7,7 +7,7 @@
       {{ $user->name }}
       <small>/ {{ $status->created_at->diffForHumans() }}</small>
     </h5>
-    {{ $status->content }}
+    <a href="{{ route('statuses.show',$status->id) }}">{{ $status->content }}</a>
   </div>
 
   @can('destroy', $status)

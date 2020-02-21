@@ -17,6 +17,7 @@ class CreateStatusesTable extends Migration
             $table->bigIncrements('id');
             $table->text('content');
             $table->integer('user_id')->index();
+            $table->integer('reply_count')->unsigned()->default(0);
             $table->index(['created_at']);
             $table->timestamps();
         });

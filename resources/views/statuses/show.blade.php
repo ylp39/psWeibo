@@ -26,15 +26,15 @@
     <div class="col-lg-9 col-md-9 col-sm-12 col-xs-12 topic-content">
       <div class="card ">
         <div class="card-body">
-          <h1 class="text-center mt-3 mb-3">
-            {{ $status->id }}
-          </h1>
+{{--          <h1 class="text-center mt-3 mb-3">--}}
+{{--            {{ $status->id }}--}}
+{{--          </h1>--}}
 
           <div class="article-meta text-center text-secondary">
             {{ $status->created_at->diffForHumans() }}
             ⋅
             <i class="far fa-comment"></i>
-            {{ $status->id }}
+            {{ $status->reply_count }}
           </div>
 
           <div class="topic-body mt-4 mb-4">

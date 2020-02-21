@@ -10,7 +10,7 @@ use App\Models\User;
 class Reply extends Model
 {
     //
-    protected $fillable = ['content'];
+    protected $fillable = ['content','reply_count'];
 
     public function status()
     {
