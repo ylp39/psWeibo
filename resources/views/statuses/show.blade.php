@@ -41,18 +41,27 @@
             {!! $status->content !!}
           </div>
 
-          <div class="operate">
-            <hr>
-            <a href="#" class="btn btn-outline-secondary btn-sm" role="button">
-              <i class="far fa-edit"></i> 编辑
-            </a>
-            <a href="#" class="btn btn-outline-secondary btn-sm" role="button">
-              <i class="far fa-trash-alt"></i> 删除
-            </a>
-          </div>
-
+{{--          <div class="operate">--}}
+{{--            <hr>--}}
+{{--            <a href="#" class="btn btn-outline-secondary btn-sm" role="button">--}}
+{{--              <i class="far fa-edit"></i> 编辑--}}
+{{--            </a>--}}
+{{--            <a href="#" class="btn btn-outline-secondary btn-sm" role="button">--}}
+{{--              <i class="far fa-trash-alt"></i> 删除--}}
+{{--            </a>--}}
+{{--          </div>--}}
+          
         </div>
       </div>
+
+      {{-- 用户回复列表 --}}
+      <div class="card topic-reply mt-4">
+        <div class="card-body">
+          @include('statuses._reply_box', ['status' => $status])
+          @include('statuses._reply_list', ['replies' => $status->replies()->with('user')->get()])
+        </div>
+      </div>
+
     </div>
   </div>
 @stop
