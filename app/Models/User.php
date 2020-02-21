@@ -59,6 +59,11 @@ class User extends Authenticatable
         return $this->hasMany(Status::class);
     }
 
+    public function replies()
+    {
+        return $this->hasMany(Reply::class);
+    }
+
     public function feed()
     {
         $user_ids = $this->followings->pluck('id')->toArray();
