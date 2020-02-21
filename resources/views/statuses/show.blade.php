@@ -50,14 +50,15 @@
 {{--              <i class="far fa-trash-alt"></i> 删除--}}
 {{--            </a>--}}
 {{--          </div>--}}
-          
+
         </div>
       </div>
 
       {{-- 用户回复列表 --}}
       <div class="card topic-reply mt-4">
         <div class="card-body">
-          @include('statuses._reply_box', ['status' => $status])
+{{--          @include('statuses._reply_box', ['status' => $status])--}}
+          @includeWhen(Auth::check(), 'statuses._reply_box', ['status' => $status])
           @include('statuses._reply_list', ['replies' => $status->replies()->with('user')->get()])
         </div>
       </div>

@@ -19,4 +19,10 @@ class Status extends Model
         return $this->hasMany(Reply::class);
     }
 
+    public function link($params = [])
+    {
+        return route('statuses.show', array_merge([$this->id], $params));
+    }
+
+
 }

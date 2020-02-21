@@ -3,7 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="67787f20-3988-4f88-abd2-6f3ba2076196" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Status.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Status.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/statuses/_reply_box.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/statuses/_reply_box.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/statuses/_reply_list.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/statuses/_reply_list.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/statuses/show.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/statuses/show.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -176,7 +185,8 @@
       <workItem from="1581737716894" duration="1054000" />
       <workItem from="1581757868136" duration="4509000" />
       <workItem from="1581781508433" duration="8000" />
-      <workItem from="1582249498186" duration="6071000" />
+      <workItem from="1582249498186" duration="10575000" />
+      <workItem from="1582266054785" duration="807000" />
     </task>
     <servers />
   </component>
