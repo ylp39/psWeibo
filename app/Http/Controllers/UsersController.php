@@ -134,4 +134,13 @@ class UsersController extends Controller
         return view('users.show_follow', compact('users', 'title'));
     }
 
+    public function statuses(User $user)
+    {
+        $statuses = $user->statuses()
+            ->orderBy('created_at', 'desc')
+            ->paginate(5);
+        $title = $user->name . '的微博';
+        return view('users.show_status', compact('statuses', 'title', 'user'));
+    }
+
 }
