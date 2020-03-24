@@ -16582,11 +16582,26 @@ readers do not read off random characters that represent icons */
 }
 
 body {
-  font-size: 14px;
+  font-size: 30px;
   font-weight: normal;
 }
 
+.navbar-brand {
+  font-weight: bold;
+  font-size: 32px;
+}
+
+.navbar-item {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.navbar-item .nav-link {
+  color: #d6d8d9;
+}
+
 nav.navbar.navbar-expand-lg {
+  font-size: 32px;
   margin-bottom: 20px;
 }
 
