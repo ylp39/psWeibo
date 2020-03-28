@@ -6,7 +6,8 @@
     <h2 class="mb-4 text-center">{{ $title }}</h2>
 
     <div class="list-group list-group-flush">
-      @foreach ($statuses as $status)
+      @if ($statuses->count() > 0)
+        @foreach ($statuses as $status)
         <div class="list-group-item">
           <a href="{{ route('users.show', $user->id) }}">
             <img src="{{ $user->gravatar() }}" alt="{{ $user->name }}" class="mr-3 gravatar">
@@ -29,6 +30,9 @@
         </div>
 
       @endforeach
+      @else
+        <p>没有数据！</p>
+      @endif
     </div>
 
     <div class="mt-3">

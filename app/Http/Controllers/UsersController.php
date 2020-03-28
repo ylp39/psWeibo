@@ -34,7 +34,7 @@ class UsersController extends Controller
     {
         $statuses = $user->statuses()
                             ->orderBy('created_at', 'desc')
-                            ->paginate(30);
+                            ->paginate(15);
 
         return view('users.show',compact('user','statuses'));
     }
